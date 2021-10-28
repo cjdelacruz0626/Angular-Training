@@ -11,4 +11,15 @@ export class AppComponent {
   clearName() {
     this.name = "";
   }
+
+  showSecret = false;
+  login = [];
+
+  onToggle() {
+    this.showSecret = !this.showSecret;
+    // this.login.push(this.login.length + 1);
+    this.login.push(new Date());
+  }
+  
+
 }
