@@ -1,1 +1,7 @@
-<!-- <router-outlet></router-outlet> -->
+<p>{{ title | number}}</p>
+
+<!-- <input placeholder="user" [(ngModel)]="user.id"> -->
+<input placeholder="user" [(ngModel)]="userObject.name">
+<!-- <input placeholder="user" [(ngModel)]="user.age"> -->
+
+<app-user [user]="userObject" (userEvent)="handleEvent($event)"></app-user>

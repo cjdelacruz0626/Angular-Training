@@ -3,22 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TruncatePipe } from './pipes/truncate.pipe';
+import { OrdersModule } from './modules/orders/orders.module';
+import { SiteFrameworkModule } from './modules/site-framework/site-framework.module';
 import { HttpClientModule } from '@angular/common/http';
-import { UserComponent } from './components/user/user.component'
+import { ProductService } from './modules/services/product.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TruncatePipe,
-    UserComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    OrdersModule,
+    SiteFrameworkModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    ProductService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,49 @@
+{
+    "products": [
+        { 
+            "id": 1, 
+            "title": "Giant Talon", 
+            "category_id": 2,
+            "description": "Ganda ng talon mo ah",
+            "product_img": "img_path",
+            "price": 21000,
+            "is_available": true
+        },
+        { 
+            "id": 2, 
+            "title": "Specialized Talon", 
+            "category_id": 2,
+            "description": "Espesyal ang talon mo ah",
+            "product_img": "img_path",
+            "price": 20000,
+            "is_available": true
+        },
+        { 
+            "id": 3, 
+            "title": "Trek Talon", 
+            "category_id": 2,
+            "description": "Trek pa nga ang talon mo ah",
+            "product_img": "img_path",
+            "price": 20500,
+            "is_available": true
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "categoryName": "Mountain Bike"
+        },
+        {
+            "id": 2,
+            "categoryName": "Road Bike"
+        },
+        {
+            "id": 3,
+            "categoryName": "Fixie"
+        }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
