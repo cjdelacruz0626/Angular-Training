@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.headingLogo {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #2c2c54;
+}
+
+.headingLogo span {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: #ff9f1a;
+}

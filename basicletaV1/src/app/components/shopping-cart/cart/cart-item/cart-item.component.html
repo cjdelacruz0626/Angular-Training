@@ -1,0 +1,13 @@
+<div class="cart-item">
+    <span class="fw-bold">
+        {{ cartItem.productName }}
+    </span> 
+    x
+    <span>
+        {{ cartItem.qty }}
+    </span>
+    = 
+    <strong>
+        ₱{{ (cartItem.qty * cartItem.price) | number }}
+    </strong>
+</div>

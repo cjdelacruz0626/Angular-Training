@@ -1,0 +1,15 @@
+<div 
+    class="alert alert-info"
+    *ngIf="cartItems.length === 0">
+    Your cart is empty
+</div>
+
+<ul class="list-group" *ngIf="cartItems.length > 0">
+    <div class="list-group-item" *ngFor="let item of cartItems">
+        <app-cart-item [cartItem]='item'></app-cart-item>
+    </div>
+
+    <li class="list-group-item cartTotal">
+        <strong>Total = </strong> ₱{{ cartTotal | number}}
+    </li>
+</ul>

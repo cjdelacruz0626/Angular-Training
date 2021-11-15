@@ -1,0 +1,12 @@
+.card {
+    margin-top: 30px;
+    font-size: small;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.form-group {
+    margin: 5px 0 5px 0;
+}
