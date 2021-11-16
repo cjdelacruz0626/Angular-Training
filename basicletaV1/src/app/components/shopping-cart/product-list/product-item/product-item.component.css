@@ -1,3 +1,7 @@
 .card-text .price {
     color: #ff9f1a;
 }
+
+.description {
+    font-size: small;
+}

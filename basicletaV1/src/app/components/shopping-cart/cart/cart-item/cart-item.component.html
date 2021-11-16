@@ -1,7 +1,8 @@
 <div class="cart-item">
     <span class="fw-bold">
-        {{ cartItem.productName }}
+        {{ cartItem.productName | slice: 0:30}}...
     </span> 
+    <br>
     x
     <span>
         {{ cartItem.qty }}

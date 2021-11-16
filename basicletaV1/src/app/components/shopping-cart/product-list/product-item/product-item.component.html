@@ -5,13 +5,30 @@
       [src]="productItem.imageUrl"/>
   
     <div class="card-body">
+
       <p class="card-text">
         <strong class="price">₱{{productItem.price | number}}</strong>
-        <i class="fas fa-heart float-right"></i>
-        <i class="far fa-heart float-right"></i>
+        <i 
+          *ngIf="addedToWishList"
+          class="float-end fa-heart"
+          (click)="handleRemoveFromWishList()">
+
+          <fa-icon [icon]="heartIcon"></fa-icon>
+        </i>
+
+        <i 
+          *ngIf="!addedToWishList"
+          class="float-end fa-heart"
+          (click)="handleAddToWishList()">
+
+          <fa-icon [icon]="heartIconSolid"></fa-icon>
+        </i>
+
       </p>
-      <h5>{{ productItem.name }}</h5>
-      <p class="card-text">{{ productItem.description }}</p>
+
+      <h6 class="fw-bold">{{ productItem.name }}</h6>
+      <p class="card-text description">{{ productItem.description | slice: 0:90 }}...</p>
+
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
             <button 
@@ -23,5 +40,6 @@
           <button type="button" class="product-btn">View Details</button>
         </div>
       </div>
+
     </div>
 </div>

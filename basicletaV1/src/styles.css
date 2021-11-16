@@ -36,10 +36,26 @@
 
 .product-btn:hover {
     background: var(--orange);
-    color: #fff;
+    color: var(--mainWhite);
 }
 
 .cartTotal, .filterBtn {
     background: var(--black);
     color: var(--mainWhite);
+}
+
+.filterBtn:hover {
+    background: var(--orange);
+    color: var(--mainWhite);
+    border: .1rem solid var(--black);
+}
+
+.fa-heart {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.fa-heart:hover {
+    color: var(--orange);
+    cursor: pointer;
 }
