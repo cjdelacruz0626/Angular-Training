@@ -11,6 +11,7 @@
         <i 
           *ngIf="addedToWishList"
           class="float-end fa-heart"
+          title="Remove from Wish List"
           (click)="handleRemoveFromWishList()">
 
           <fa-icon [icon]="heartIcon"></fa-icon>
@@ -19,6 +20,7 @@
         <i 
           *ngIf="!addedToWishList"
           class="float-end fa-heart"
+          title="Add to Wish List"
           (click)="handleAddToWishList()">
 
           <fa-icon [icon]="heartIconSolid"></fa-icon>

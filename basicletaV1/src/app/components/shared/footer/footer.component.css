@@ -1,0 +1,16 @@
+.logo {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2c54;
+}
+
+.logoOrange {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: #ff9f1a;
+}
+
+.foot {
+    margin-top: 50px;
+}

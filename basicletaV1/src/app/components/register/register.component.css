@@ -1,0 +1,15 @@
+.container {
+    margin-top: 30px;
+}
+
+.btn, .form-group {
+    margin-top: 10px;
+}
+
+label {
+    font-size: small;
+}
+
+span {
+    font-size: x-small;
+}
