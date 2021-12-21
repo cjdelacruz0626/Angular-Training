@@ -1,0 +1,19 @@
+<header>
+    <div class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="navbar-brand px-sm-4 px-lg-5 d-flex align-items-center">
+            <span  [routerLink]="['/products']" class="headingLogo fw-bold" style="cursor: pointer;">
+                Basic<span>leta</span>
+            </span>
+
+            <div class="form-group search-input">
+                <input type="text" class="form-control" placeholder="search">
+            </div>
+            <span class="search-icon"><fa-icon [icon]="searchIcon"></fa-icon></span>
+        </div>
+        
+        <button [routerLink]="['/cart']" class="btn btn-default btn-cart">
+            <i style="font-size: 20px;"><fa-icon [icon]="cartIcon"></fa-icon></i>
+            <div style="font-size: 8px;" class="badge bg-danger">{{ totalItem }}</div>
+        </button>
+    </div>
+</header>

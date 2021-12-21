@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+/* css variables  */
+:root {
+    --black: #2c2c54;
+    --orange: #ff9f1a;
+    --mainWhite: whitesmoke;
+    --mainGrey: #ececec;
+}
+
+/* some css reset and defualt style  */
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+/* header start */
+.headingLogo {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #2c2c54;
+}
+
+.headingLogo span {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: #ff9f1a;
+}
+
+.search-input {
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 63.5%;
+    top: 20px;
+    color: var(--orange);
+}
+
+.btn-cart {
+    position: absolute;
+    right: 5%;
+}
+
+.btn-cart:hover {
+    color: var(--orange);
+}
+/* header end  */
+
+
+/* products start */
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid var(--black);
+    border: .25rem;
+}
+
+.card-top .item {
+    margin: 20px 0px 20px 20px;
+    align-items: center;
+}
+
+.product-btn {
+    /* display: inline-block; */
+    margin: 2px;
+    border-radius: .2rem;
+    border: .1rem solid var(--black);
+    font-weight: bolder;
+    font-size: 0.8rem;
+    color: var(--black);
+    cursor: pointer;
+    background: #fff;
+    padding: 5px;
+}
+
+.product-btn:hover {
+    background: var(--orange);
+    color: var(--mainWhite);
+}
+
+.price, .subTotal {
+    color: var(--orange);
+}
+/* products end  */

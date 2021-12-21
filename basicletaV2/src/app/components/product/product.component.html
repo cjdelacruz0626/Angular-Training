@@ -1,0 +1,99 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a href="">
+                <h6>All Bikes</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a href="">
+                <h6>MTB</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a href="">
+                <h6>RB</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a href="">
+                <h6>Kids</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a href="">
+                <h6>Fixies</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let bike of bikes">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="{{bike.imageUrl}}" alt="image">
+    
+                    <div class="card-body">
+                        <p class="card-text">
+                            <strong class="price">₱{{ bike.price | number }}</strong>
+                        </p>
+        
+                        <h6 class="fw-bold">{{ bike.name }}</h6>
+                        <p class="card-text">{{ bike.description | slice: 0:90 }}...</p>
+        
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button 
+                                type="button" 
+                                class="product-btn"
+                                (click)="addToCart(bike)">
+                                    Add to Cart
+                                </button>
+                            <button type="button" class="product-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <img src="https://i.ibb.co/n1tFygS/item3.png" alt="image">
+
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>₱25,000</strong>
+                </p>
+
+                <h6 class="fw-bold">Trek X21E6</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button 
+                          type="button" 
+                          class="product-btn">
+                            Add to Cart
+                        </button>
+                      <button type="button" class="product-btn">View Details</button>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div> -->

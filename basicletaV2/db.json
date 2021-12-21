@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "2022 Trek Marlin 8 - Gloss Red",
+      "price": 56990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/74TQytP/item1.png"
+    },
+    {
+      "id": 2,
+      "name": "2022 Trek Marlin 8 - Gloss Alpine",
+      "price": 56990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/nzkVGNc/item2.png"
+    },
+    {
+      "id": 3,
+      "name": "2022 Trek Marlin 6 / Red Black Fade",
+      "price": 31990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/n1tFygS/item3.png"
+    },
+    {
+      "id": 4,
+      "name": "2022 Trek Marlin 6 / Nautical Navy",
+      "price": 31990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/ZWGMmQX/item4.png"
+    },
+    {
+      "id": 5,
+      "name": "2022 Trek Marlin 5 - Volt to Miami Green Fade",
+      "price": 27990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/x6hTcDm/item5.png"
+    },
+    {
+      "id": 6,
+      "name": "2021 Domane AL 2 - BL/BK",
+      "price": 41990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/4T0xFsf/item6.png"
+    },
+    {
+      "id": 7,
+      "name": "2021 Trek Domane AL 2 - BK",
+      "price": 41990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/dQ8Ddg8/item7.png"
+    },
+    {
+      "id": 8,
+      "name": "2021 Trek Domane AL 3 Disc - DK/AQ",
+      "price": 63990,
+      "description": "Carbon sya lods kaya sobrang gaan nya kaya sana masaya ka na sa kanya",
+      "imageUrl": "https://i.ibb.co/Pr9JB37/item8.png"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
